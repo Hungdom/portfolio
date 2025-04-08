@@ -7,17 +7,18 @@
 ehthumbs.db
 Thumbs.db
 
-# IDE specific files
+# IDE files
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Node.js
+# Node modules (if you add any later)
 node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+
+# Environment variables
+.env
+.env.local
 
 # Build files
 dist/
