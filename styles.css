@@ -282,4 +282,121 @@ footer {
     .contact-content {
         grid-template-columns: 1fr;
     }
+}
+
+/* Courses Section */
+.courses {
+    background-color: var(--light-bg);
+    padding: 5rem 1rem;
+}
+
+.course-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.course-card {
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-header {
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.course-badge {
+    background: var(--secondary-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.course-details {
+    padding: 2rem;
+}
+
+.course-description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.course-highlights {
+    margin-bottom: 2rem;
+}
+
+.course-highlights h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.course-highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-highlights li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.course-highlights li:before {
+    content: "•";
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+}
+
+.course-info {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.course-info p {
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.course-info i {
+    color: var(--secondary-color);
+}
+
+.course-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.course-link:hover {
+    background-color: #2980b9;
 } 
